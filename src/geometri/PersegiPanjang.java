@@ -21,10 +21,10 @@ public class PersegiPanjang {
         double lebar = 3.0;
         PersegiPanjang persegiPanjang = new PersegiPanjang(panjang, lebar);
 
-        double luas = persegiPanjang.hitungLuas();
-        double keliling = persegiPanjang.hitungKeliling();
+        double luas1 = persegiPanjang.hitungLuas();
+        double keliling1 = persegiPanjang.hitungKeliling();
 
-        System.out.println("Luas persegi panjang: " + luas);
-        System.out.println("Keliling persegi panjang: " + keliling);
+        System.out.println("Luas persegi panjang: " + luas1);
+        System.out.println("Keliling persegi panjang: " + keliling1);
     }
 }
